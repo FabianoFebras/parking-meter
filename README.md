@@ -44,8 +44,10 @@ Open the `index.html` file in your browser to run the project.
 
 ### Project structure
 
-├── index.html # Main HTML file
-├── styles.css # Main styles
-├── reset.css # CSS reset
-├── app.js # Application logic
-└── README.md # Project documentation
+```text
+├── index.html
+├── styles.css
+├── reset.css
+├── app.js
+└── README.md
+
