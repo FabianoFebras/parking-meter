@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Parking Meter</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Parking Meter
+        </h1>
+        <small>Calculate the time remaining</small>
+    </header>
+    <main>
+        <article>
+            <label for="user-entry"> Value(U$)</label>
+            <input type="number" min="1" id="user-entry">
+            <button onclick="parkingMeter.calculateTime()">Calculate time and change</button>
+            <p id="result"> </p>
+        </article>
+        <article>
+            <table>
+                <tr>
+                    <th>Value(U$)</th>
+                    <th>Time</th>
+                </tr>
+                <tr>
+                    <td>U$ 1,00</td>
+                    <td>30min</td>
+                </tr>
+                <tr>
+                    <td>U$ 1,75</td>
+                    <td>60min</td>
+                </tr>
+                <tr>
+                    <td>U$ 3,00 </td>
+                    <td>120min </td>
+                </tr>
+            </table>
+        </article>
+    </main>
+    <footer id="footer"></footer>
+
+</body>
+<script src="app.js"></script>
+
+</html>
